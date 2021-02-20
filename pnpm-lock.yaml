@@ -1,0 +1,213 @@
+dependencies:
+  svelte: 3.32.3
+  turretcss: 5.2.2
+devDependencies:
+  '@snowpack/plugin-svelte': 3.5.2_svelte@3.32.3
+  snowpack: 3.0.11
+lockfileVersion: 5.2
+packages:
+  /@snowpack/plugin-svelte/3.5.2_svelte@3.32.3:
+    dependencies:
+      rollup-plugin-svelte: 7.1.0_svelte@3.32.3
+      svelte: 3.32.3
+      svelte-hmr: 0.12.6_svelte@3.32.3
+      svelte-preprocess: 4.6.9_svelte@3.32.3
+    dev: true
+    peerDependencies:
+      svelte: ^3.21.0
+    resolution:
+      integrity: sha512-i7OhkIRNt1uJ/y3qpowlU7icjtSgFPIl/GjMmBxhtwoIqHAnowFLh1Ur5G6S36GCFo65ymClnYfEIM/2x1+wPQ==
+  /@types/node/14.14.28:
+    dev: true
+    resolution:
+      integrity: sha512-lg55ArB+ZiHHbBBttLpzD07akz0QPrZgUODNakeC09i62dnrywr9mFErHuaPlB6I7z+sEbK+IYmplahvplCj2g==
+  /@types/pug/2.0.4:
+    dev: true
+    resolution:
+      integrity: sha1-h3L80EGOPNLMFxVV1zAHQVBR9LI=
+  /@types/sass/1.16.0:
+    dependencies:
+      '@types/node': 14.14.28
+    dev: true
+    resolution:
+      integrity: sha512-2XZovu4NwcqmtZtsBR5XYLw18T8cBCnU2USFHTnYLLHz9fkhnoEMoDsqShJIOFsFhn5aJHjweiUUdTrDGujegA==
+  /detect-indent/6.0.0:
+    dev: true
+    engines:
+      node: '>=8'
+    resolution:
+      integrity: sha512-oSyFlqaTHCItVRGK5RmrmjB+CmaMOW7IaNA/kdxqhoa6d17j/5ce9O9eWXmV/KEdRwqpQA+Vqe8a8Bsybu4YnA==
+  /esbuild/0.8.46:
+    dev: true
+    hasBin: true
+    requiresBuild: true
+    resolution:
+      integrity: sha512-xck9sXNCNmjDHCCfxTCyhKTiFuEBweh+IDAhMLOJI990v1Fzii6MyIkT1LbkvjgoVgPX2SK1kpi5eZVGNrl8yg==
+  /estree-walker/0.6.1:
+    dev: true
+    resolution:
+      integrity: sha512-SqmZANLWS0mnatqbSfRP5g8OXZC12Fgg1IwNtLsyHDzJizORW4khDfjPqJZsemPWBB2uqykUah5YpQ6epsqC/w==
+  /fsevents/2.3.2:
+    dev: true
+    engines:
+      node: ^8.16.0 || ^10.6.0 || >=11.0.0
+    optional: true
+    os:
+      - darwin
+    resolution:
+      integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==
+  /is-docker/2.1.1:
+    dev: true
+    engines:
+      node: '>=8'
+    hasBin: true
+    resolution:
+      integrity: sha512-ZOoqiXfEwtGknTiuDEy8pN2CfE3TxMHprvNer1mXiqwkOT77Rw3YVrUQ52EqAOU3QAWDQ+bQdx7HJzrv7LS2Hw==
+  /is-wsl/2.2.0:
+    dependencies:
+      is-docker: 2.1.1
+    dev: true
+    engines:
+      node: '>=8'
+    resolution:
+      integrity: sha512-fKzAra0rGJUUBwGBgNkHZuToZcn+TtXHpeCgmkMJMMYx1sQDYaCSyjJBSCa2nH1DGm7s3n1oBnohoVTBaN7Lww==
+  /min-indent/1.0.1:
+    dev: true
+    engines:
+      node: '>=4'
+    resolution:
+      integrity: sha512-I9jwMn07Sy/IwOj3zVkVik2JTvgpaykDZEigL6Rx6N9LbMywwUSMtxET+7lVoDLLd3O3IXwJwvuuns8UB/HeAg==
+  /open/7.4.1:
+    dependencies:
+      is-docker: 2.1.1
+      is-wsl: 2.2.0
+    dev: true
+    engines:
+      node: '>=8'
+    resolution:
+      integrity: sha512-Pxv+fKRsd/Ozflgn2Gjev1HZveJJeKR6hKKmdaImJMuEZ6htAvCTbcMABJo+qevlAelTLCrEK3YTKZ9fVTcSPw==
+  /require-relative/0.8.7:
+    dev: true
+    resolution:
+      integrity: sha1-eZlTn8ngR6N5KPoZb44VY9q9Nt4=
+  /rollup-plugin-svelte/7.1.0_svelte@3.32.3:
+    dependencies:
+      require-relative: 0.8.7
+      rollup-pluginutils: 2.8.2
+      svelte: 3.32.3
+    dev: true
+    engines:
+      node: '>=10'
+    peerDependencies:
+      rollup: '>=2.0.0'
+      svelte: '>=3.5.0'
+    resolution:
+      integrity: sha512-vopCUq3G+25sKjwF5VilIbiY6KCuMNHP1PFvx2Vr3REBNMDllKHFZN2B9jwwC+MqNc3UPKkjXnceLPEjTjXGXg==
+  /rollup-pluginutils/2.8.2:
+    dependencies:
+      estree-walker: 0.6.1
+    dev: true
+    resolution:
+      integrity: sha512-EEp9NhnUkwY8aif6bxgovPHMoMoNr2FulJziTndpt5H9RdwC47GSGuII9XxpSdzVGM0GWrNPHV6ie1LTNJPaLQ==
+  /rollup/2.39.0:
+    dev: true
+    engines:
+      node: '>=10.0.0'
+    hasBin: true
+    optionalDependencies:
+      fsevents: 2.3.2
+    resolution:
+      integrity: sha512-+WR3bttcq7zE+BntH09UxaW3bQo3vItuYeLsyk4dL2tuwbeSKJuvwiawyhEnvRdRgrII0Uzk00FpctHO/zB1kw==
+  /snowpack/3.0.11:
+    dependencies:
+      esbuild: 0.8.46
+      open: 7.4.1
+      rollup: 2.39.0
+    dev: true
+    engines:
+      node: '>=10.19.0'
+    hasBin: true
+    optionalDependencies:
+      fsevents: 2.3.2
+    resolution:
+      integrity: sha512-lBxgkvWTgdg0szE31JUt01wQkA9Lnmm+6lxqeV9rxDfflpx7ASnldVHFvu7Se70QJmPTQB0UJjfKI+xmYGwiiQ==
+  /strip-indent/3.0.0:
+    dependencies:
+      min-indent: 1.0.1
+    dev: true
+    engines:
+      node: '>=8'
+    resolution:
+      integrity: sha512-laJTa3Jb+VQpaC6DseHhF7dXVqHTfJPCRDaEbid/drOhgitgYku/letMUqOXFoWV0zIIUbjpdH2t+tYj4bQMRQ==
+  /svelte-hmr/0.12.6_svelte@3.32.3:
+    dependencies:
+      svelte: 3.32.3
+    dev: true
+    peerDependencies:
+      svelte: '>=3.19.0'
+    resolution:
+      integrity: sha512-q08BjoUSbwXpKo9ij6aym93jBrt7K8eutLwix5Y9cuSFLS5djxumOoUVsSzDkdKssLlg5X//Kg/0MWHHBeQRTg==
+  /svelte-preprocess/4.6.9_svelte@3.32.3:
+    dependencies:
+      '@types/pug': 2.0.4
+      '@types/sass': 1.16.0
+      detect-indent: 6.0.0
+      strip-indent: 3.0.0
+      svelte: 3.32.3
+    dev: true
+    engines:
+      node: '>= 9.11.2'
+    peerDependencies:
+      '@babel/core': ^7.10.2
+      coffeescript: ^2.5.1
+      less: ^3.11.3
+      node-sass: '*'
+      postcss: ^7 || ^8
+      postcss-load-config: ^2.1.0 || ^3.0.0
+      pug: ^3.0.0
+      sass: ^1.26.8
+      stylus: ^0.54.7
+      sugarss: ^2.0.0
+      svelte: ^3.23.0
+      typescript: ^3.9.5 || ^4.0.0
+    peerDependenciesMeta:
+      '@babel/core':
+        optional: true
+      coffeescript:
+        optional: true
+      less:
+        optional: true
+      node-sass:
+        optional: true
+      postcss:
+        optional: true
+      postcss-load-config:
+        optional: true
+      pug:
+        optional: true
+      sass:
+        optional: true
+      stylus:
+        optional: true
+      sugarss:
+        optional: true
+      typescript:
+        optional: true
+    requiresBuild: true
+    resolution:
+      integrity: sha512-SROWH0rB0DJ+0Ii264cprmNu/NJyZacs5wFD71ya93Cg/oA2lKHgQm4F6j0EWA4ktFMzeuJJm/eX6fka39hEHA==
+  /svelte/3.32.3:
+    dev: false
+    engines:
+      node: '>= 8'
+    resolution:
+      integrity: sha512-5etu/wDwtewhnYO/631KKTjSmFrKohFLWNm1sWErVHXqGZ8eJLqrW0qivDSyYTcN8GbUqsR4LkIhftNFsjNehg==
+  /turretcss/5.2.2:
+    dev: false
+    resolution:
+      integrity: sha512-N9rnnRrwEWCz5+P+cHW+HUmHWco0XuvcriXa6aFcMnJazDDTGixVI2hOB0Uu8wk7SvwNKi6qiEiaqweeiRst9g==
+specifiers:
+  '@snowpack/plugin-svelte': ^3.5.2
+  snowpack: ^3.0.11
+  svelte: ^3.32.3
+  turretcss: ^5.2.2

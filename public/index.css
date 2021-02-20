@@ -1,0 +1,13 @@
+/* Add CSS styles here! */
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+
+  font-family: Heebo;
+}
+
+/* Add CSS debug styles */
+/* * {
+  outline: 1px solid hsla(0, 100%, 50%, 0.3);
+} */
